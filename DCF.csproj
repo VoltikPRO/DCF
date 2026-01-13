@@ -83,10 +83,12 @@
       <DependentUpon>AboutWindow.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Command\App\DCF.addin">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <Folder Include="Deploy\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DCF.addin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -96,4 +98,8 @@
     </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)DCF.dll"    "$(ProjectDir)Deploy\" /Y /I
+xcopy "$(TargetDir)DCF.addin" "$(ProjectDir)Deploy\" /Y /I</PostBuildEvent>
+  </PropertyGroup>
 </Project>
