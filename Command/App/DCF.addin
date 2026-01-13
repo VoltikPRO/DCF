@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Direct Connection Finder</Name>
+		<Assembly>"C:\ProgramData\Autodesk\Revit\Addins\2024\DCF.dll"</Assembly>
+		<AddInId>8D83F2C7-9C51-4F3F-BE3D-DCF000000001</AddInId>
+		<FullClassName>DCF.App.App</FullClassName>
+		<VendorId>DCF</VendorId>
+		<VendorDescription>Lightning Protection Tools</VendorDescription>
+	</AddIn>
+</RevitAddIns>
