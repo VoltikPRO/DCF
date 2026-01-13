@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36705.20
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCF", "DCF.csproj", "{BD2C41C8-4481-4E42-8A3B-DFBBEAE25BBC}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DCFInstaller", "DCFInstaller\DCFInstaller.vdproj", "{504E4646-DAD8-16B2-1DC5-5F788C972D73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BD2C41C8-4481-4E42-8A3B-DFBBEAE25BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD2C41C8-4481-4E42-8A3B-DFBBEAE25BBC}.Release|x64.ActiveCfg = Release|x64
 		{BD2C41C8-4481-4E42-8A3B-DFBBEAE25BBC}.Release|x64.Build.0 = Release|x64
+		{504E4646-DAD8-16B2-1DC5-5F788C972D73}.Debug|Any CPU.ActiveCfg = Debug
+		{504E4646-DAD8-16B2-1DC5-5F788C972D73}.Debug|x64.ActiveCfg = Debug
+		{504E4646-DAD8-16B2-1DC5-5F788C972D73}.Release|Any CPU.ActiveCfg = Release
+		{504E4646-DAD8-16B2-1DC5-5F788C972D73}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
