@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DCF")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("DCF - Direct Connection Finder")]
+[assembly: AssemblyDescription("Revit add-in for highlighting and reviewing electrical connections of distribution boards.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DCF")]
-[assembly: AssemblyCopyright("Copyright ©  2026")]
+[assembly: AssemblyCompany("VoltikPRO")]
+[assembly: AssemblyProduct("Direct Connection Finder")]
+[assembly: AssemblyCopyright("Copyright ©  VoltikPRO 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

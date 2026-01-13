@@ -85,7 +85,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Command\App\DCF.addin" />
+    <Content Include="Command\App\DCF.addin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Page Include="UI\AboutWindow.xaml">
