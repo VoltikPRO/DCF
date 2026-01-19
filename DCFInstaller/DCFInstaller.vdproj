@@ -70,13 +70,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E73D65C31817404CAD6101D923190270"
+        "OwnerKey" = "8:_F45588B7D2FD48B0B52BC5C724D9DD47"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F45588B7D2FD48B0B52BC5C724D9DD47"
+        "OwnerKey" = "8:_E73D65C31817404CAD6101D923190270"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -105,7 +105,7 @@
         "InstallerBootstrapper" = "3:2"
             "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
             {
-            "Enabled" = "11:TRUE"
+            "Enabled" = "11:FALSE"
             "PromptEnabled" = "11:TRUE"
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
@@ -135,6 +135,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -491,11 +507,11 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DCFInstaller"
         "ProductCode" = "8:{3373820F-36EC-40EF-AAE1-44DE41C8201C}"
-        "PackageCode" = "8:{4BFC5163-F617-4DB0-9517-D2B33349F5EC}"
+        "PackageCode" = "8:{F82462EC-5BDE-47F3-B556-0B5187A40267}"
         "UpgradeCode" = "8:{77E0D503-8D88-466F-AD63-7E9C2692FB41}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
@@ -947,8 +963,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1214"
+                            "Setting" = "3:2"
+                            "Value" = "8:Direct Connection Finder for Revit"
                             "DefaultValue" = "8:#1214"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -960,8 +976,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1215"
+                            "Setting" = "3:2"
+                            "Value" = "8:This installer will install the Direct Connection Finder plugin for Autodesk Revit.\nThe plugin helps visualize and identify direct electrical connections from a selected distribution panel."
                             "DefaultValue" = "8:#1215"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -1216,8 +1232,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
+                            "Setting" = "3:2"
+                            "Value" = "8:The installer will guide you through the steps required to install Direct Connection Finder for Autodesk Revit on your computer."
                             "DefaultValue" = "8:#1203"
                             "UsePlugInResources" = "11:TRUE"
                             }
